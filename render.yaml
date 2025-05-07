@@ -3,5 +3,5 @@ services:
     name: home-price-flask
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python app.py"
+    startCommand: "python app/app.py"
     autoDeploy: true
